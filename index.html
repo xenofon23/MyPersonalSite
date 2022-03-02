@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="skils.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="icon-bar">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+      <a href="#" class="twitter"><i class="fa fa-github"></i></a> 
+      <a href="#" class="google"><i class="fa fa-google"></i></a> 
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    </div>
+    
+
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"><span class="typewriter"></span><span class="blink">|</span></h1>
+          
+        </div>
+        <!-- <button class="btn" onclick="#contact" >
+            HIRE ME
+        </button> -->
+    </section>
+
+    <section id="About">
+        <h1 class="headings1">ABOUT ME</h1>
+        <div id="pick">
+            <img src="./photo/me.jpg" alt="">
+        
+        <div id="intro">
+            <h3>XENOFON NIKOLAOS PANTSOS</h3>
+            <P>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network, or may also be sent via an Internet connection.</P>
+            </div>
+        </div>
+    </section>
+ <section id="Portfolio">
+    <h1 class="headings1">PORTFOLIO</h1>
+    <div id="myBtnContainer">
+        <button class="btn_portfolio" onclick="fillterSelection('all')"> Show all</button>
+        <button class="btn_portfolio" onclick="fillterSelection('nature')"> Java</button>
+        <button class="btn_portfolio" onclick="fillterSelection('cars')"> Web</button>
+        <button class="btn_portfolio" onclick="fillterSelection('people')"> ----</button>
+      </div>
+      <div class="row">
+        <div class="column nature">
+          <div class="content">
+            <img src="./photo/weather_app.png" alt="" style="width:100%">
+            <h4>Mountains</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+          <img src="./photo/weather_app.png" alt="Lights" style="width:100%">
+            <h4>Lights</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+          <img src="./photo/weather_app.png" alt="Nature" style="width:100%">
+            <h4>Forest</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="./photo/weather_app.png" alt="Car" style="width:100%">
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+          <img src="./photo/weather_app.png" alt="Car" style="width:100%">
+            <h4>Fast</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+</section>
+<!-- skills page -->
+<section id="skills">
+  <h1 class="headings1">SKILLS</h1>
+<div class="container">
+  <div class="col">
+    <h2 class="titulo">Programming</h2>
+    <ul class="skill">
+      <li><span class="blueline html"></span><em>HTML</em></li>
+      <li><span class="blueline css"></span><em>CSS</em></li>
+      <li><span class="blueline php"></span><em>PHP</em></li>
+      <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+      <li><span class="blueline jquery"></span><em>jQuery</em></li>
+      <li><span class="blueline java"></span><em>Java</em></li>
+    </ul>
+  </div>
+    <div class="col">
+    <h2 class="plataformas titulo">Platforms</h2>
+    <ul class="skill">
+      <li><span class="greenline wordpress"></span><em>Wordpress</em></li>
+      <li><span class="greenline prestashop"></span><em>Git hub</em></li>
+      <li><span class="greenline joomla"></span><em>Android Studio</em></li>
+      <li><span class="greenline blogger"></span><em>VS Code</em></li>
+    </ul>
+  </div>
+ 
+<!-- idea original en: http://www.alessioatzeni.com/blog/css3-skill-bar-animation/ -->
+</section>
+<section id="services">
+  <h1 class="headings1">SERVICES</h1>
+  <div class="row2">
+    <div class="box">
+        <img src="photo/web_design.png" alt="">
+        <h1 class="headings">Website Developing</h1>
+        <p>Κλασική φασολάδα χυλωμένη, με πυκνό ζωμό, πλούσια σε γεύση και πάρα πολύ νόστιμη!
+
+          Δεν χρειάζεται να μουλιάσουμε από πριν τα φασόλια. Τα βάζουμε σε κατσαρόλα με μπόλικο κρύο νερό να τα σκεπάζει, και αφήνουμε να βράσουν για 35-40 λεπτά,
+        </p>
+    </div>
+    <div class="box">
+      <img src="photo/ui.png" alt="">
+      <h1 class="headings">UX/UI<br>Design</h1>
+      <p>Κλασική φασολάδα χυλωμένη, με πυκνό ζωμό, πλούσια σε γεύση και πάρα πολύ νόστιμη!
+
+        Δεν χρειάζεται να μουλιάσουμε από πριν τα φασόλια. Τα βάζουμε σε κατσαρόλα με μπόλικο κρύο νερό να τα σκεπάζει, και αφήνουμε να βράσουν για 35-40 λεπτά,
+      </p>
+  </div>
+
+  </div>
+
+</section>
+
+<section id="contact">
+  <h1 class="headings1">CONTACT ME</h1>
+  <form action="" class="form">
+    <input type="text" name="name" class="input" id="name" placeholder="Enter Your Name">
+    <input type="email" id="email" name="email" class="input" placeholder="Enter Your Email">
+    <textarea name="msg" id="msg" cols="30" rows="10"
+    placeholder="Enter Your Message"></textarea>
+    <input type="submit" value="SEND" id="send" onclick="send_msg">
+  </form>
+
+
+</section>
+<script src="text_animation.js" ></script>
+<script src="Portfolio.js"></script>
+<script src="msg.js"></script>
+</body>
+</html>
+

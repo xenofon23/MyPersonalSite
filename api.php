@@ -2,6 +2,8 @@
 $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['PATH_INFO'],'/'));
 $input = json_decode(file_get_contents('php://input'),true);
+
+
 switch ($r=array_shift($request)) {
     case 'send' :handle_msg($method,$input); 
         break;
@@ -10,11 +12,14 @@ switch ($r=array_shift($request)) {
 }
 
 function handle_msg($method,$input){
+    print_r($input);
     
     $to_email = "pantsosxen23@gmail.com";
     $subject = "Mail from Personal Site";
-    $body = "Hi,nn This is test email send by PHP Script";
-    $headers = "From: sender\'s email";
+    $name=$input['name'];
+    $message=$input['message'];
+    $body ="My name is $name and message is $message";
+    $headers = $input['email'];
     if (mail($to_email, $subject, $body, $headers)) {
        echo "Email successfully sent to $to_email...";
     } else {

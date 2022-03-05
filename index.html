@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="skils.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
     
 </head>
 <body>
@@ -44,7 +46,7 @@
 
     <section id="About">
         <h1 class="headings1">ABOUT ME</h1>
-        <div id="pick">
+        <div id="pic">
             <img src="./photo/me.jpg" alt="">
         
         <div id="intro">
@@ -153,11 +155,10 @@
   <h1 class="headings1">CONTACT ME</h1>
   <form action="" class="form">
     <input type="text" name="name" class="input" id="name" placeholder="Enter Your Name">
-    <input type="email" id="email" name="email" class="input" placeholder="Enter Your Email">
+    <input type="text" id="email" name="email" class="input" placeholder="Enter Your Email">
     <textarea name="msg" id="msg" cols="30" rows="10"
     placeholder="Enter Your Message"></textarea>
-    <input type="submit" value="SEND" id="send" onclick="send_msg()">
-    <button onclick="send_msg()"></button>
+    <input type="submit" value="SEND" id="send" onclick="allok()">
   </form>
 
 
@@ -165,6 +166,8 @@
 <script src="text_animation.js" ></script>
 <script src="Portfolio.js"></script>
 <script src="msg.js"></script>
+<script src="jquery/jquery-3.6.0.js"></script>
+<script src="jquery/jquery-3.6.0.min.js"></script>
 </body>
 </html>
 

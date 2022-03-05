@@ -1,19 +1,3 @@
-function send_msg(){
-    console.log("egine");
-    let name=document.getElementById("name");
-    let mail=document.getElementById("email");
-    let message=document.getElementById("msg");
-
-
-    $.ajax({url: "api.php/send",
-    method: 'GET',
-    dataType: "json",
-    contentType: 'application/json',
-    data: JSON.stringify( {name: name, email:mail, message:message}),
-    success: ok_request,
-    error: error});
-
-}
 
 function ok_request(){
     alert("The message was sent ");
@@ -22,10 +6,26 @@ function ok_request(){
 
 
 function error(data) {
-    var x = data.responseJSON;
-    alert(x.errormesg);
+    // var x = data.responseJSON;
+    // alert(x.errormesg);
 }
 
 function allok(){
-    console.log("bike");
+   
+    let name=$('#name').val()
+    let mail=$('#email').val()
+    let message=$('#msg').val()
+     console.log(name);
+    console.log("egine");
+
+    $.ajax({url: "api.php/send",
+
+    method: 'PUT',
+    dataType: "json",
+    // headers: {"X-Token": me.token},
+    contentType: 'application/json',
+    data: JSON.stringify( {name: name, email:mail, message:message}),
+    success: ok_request,
+    error: error
+});
 }

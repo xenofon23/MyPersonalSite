@@ -1,4 +1,5 @@
 function send_msg(){
+    console.log("egine");
     let name=document.getElementById("name");
     let mail=document.getElementById("email");
     let message=document.getElementById("msg");
@@ -23,4 +24,8 @@ function ok_request(){
 function error(data) {
     var x = data.responseJSON;
     alert(x.errormesg);
+}
+
+function allok(){
+    console.log("bike");
 }

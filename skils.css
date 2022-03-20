@@ -111,17 +111,17 @@ h2.programas {
 .titulo      { opacity:1;  animation:titulo 5s ease-out;     }
 
 /*programacion*/
-.html        { width:90%;  animation:html 2s ease-out;       }
-.css         { width:95%;  animation:css 2s ease-out;        }
-.php         { width:70%;  animation:php 2s ease-out;        }
+.html        { width:80%;  animation:html 2s ease-out;       }
+.css         { width:60%;  animation:css 2s ease-out;        }
+.php         { width:40%;  animation:php 2s ease-out;        }
 .javascript  { width:50%;  animation:javascript 2s ease-out; }
 .jquery      { width:30%;  animation:jquery 2s ease-out;     }
-.java      { width:50%;  animation:java 2s ease-out;     }
+.java      { width:30%;  animation:java 2s ease-out;     }
 
 /*plataformas*/
-.wordpress   { width:80%;  animation:wordpress 2s ease-out;  }
+.wordpress   { width:60%;  animation:wordpress 2s ease-out;  }
 .prestashop  { width:60%;  animation:prestashop 2s ease-out; }
-.joomla      { width:40%;  animation:joomla 2s ease-out;     }
+.joomla      { width:30%;  animation:joomla 2s ease-out;     }
 .blogger     { width:70%;  animation:blogger 2s ease-out;    }
 
 

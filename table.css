@@ -37,3 +37,6 @@
 #send{
     width:20%;
 }
+.skill li em{
+    font-size: 10px;
+}

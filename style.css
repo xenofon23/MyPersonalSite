@@ -110,7 +110,7 @@
     top: 0;
     right: 0;
     background-color: black;
-    background-image:url("/Personal_SiteN-main/photo/Me1.jpg");
+    background-image:url("./photo/Me1.jpg");
     background-repeat: no-repeat ;
     background-position: center;
     background-size: 65%;
